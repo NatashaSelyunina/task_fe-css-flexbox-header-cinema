@@ -8,6 +8,7 @@ main {
 
 header {
   width: 100%;
+  display: flex;
 }
 
 divImage {
@@ -23,15 +24,26 @@ header img {
 .nav {
   position: absolute;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
   z-index: 2;
-  top: 20px;
+  top: 55px;
+  width: 100%;
 }
 
 .nav a {
   display: flex;
+  height: 30px;
+  width: 170px;
+  color: white;
 }
 
 .nav input {
   display: flex;
+  height: 30px;
+  width: 170px;
+}
+
+.imgPlay {
+  width: 20px;
 }
