@@ -6,3 +6,32 @@ main {
   width: 400vh;
 }
 
+header {
+  width: 100%;
+}
+
+divImage {
+  position: relative;
+  z-index: 1;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 2;
+  top: 20px;
+}
+
+.nav a {
+  display: flex;
+}
+
+.nav input {
+  display: flex;
+}
